@@ -2,7 +2,7 @@ package br.techgeo.forma;
 
 import br.techgeo.ponto.Ponto;
 
-public class Circulo {
+public class Circulo extends Forma {
     private double raio;
     private Ponto ponto;
 

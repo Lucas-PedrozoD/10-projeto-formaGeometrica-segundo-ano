@@ -2,7 +2,7 @@ package br.techgeo.forma;
 
 import br.techgeo.ponto.Ponto;
 
-public class Cilindro {
+public class Cilindro extends Forma implements Volume{
     private double raio;
     private double altura;
     private Ponto ponto;
